@@ -58,19 +58,24 @@ RESET
   font: inherit;
 }
 
+body {
+  font-family: $ff-primary;
+  font-size: $fs-400;
+  color: $clr-blue-800;
+
+  margin: $size-36 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
 img {
   display: block;
   max-width: 100%;
 }
-
-body {
-    font-family: $ff-primary;
-    font-size: $fs-400;
-    color: $clr-blue-800;
-
-    margin: $size-36 0;
-}
-
 /* =========== 
 COMPOSITION
 ============== */
@@ -97,7 +102,7 @@ UTILITIES
 .fw-black { font-weight: $fw-900; }
 
 .text-center { text-align: center; }
-.text-accent { color: $clr-red-400; }
+.text-accent { color: $clr-red-500; }
 
 .visually-hidden {
   clip: rect(0 0 0 0);
@@ -112,6 +117,7 @@ UTILITIES
 .page-title {
   font-size: $fs-700;
   font-weight: $fw-900;
+  text-transform: uppercase;
 }
 
 /* =========== 
